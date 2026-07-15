@@ -1,0 +1,348 @@
+/* ===== RESET ===== */
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* ===== STARTING OF THE HEADER ===== */
+header {
+  background-color: #ffffff;
+  color: #202020;
+  box-shadow:0 2px 5px #ededed;
+}
+
+/* ===== TOP-HEADER ===== */
+.top-header {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 20px;
+}
+
+.logo_text img {
+  margin-top: 3px;
+  border-radius: 4px;
+}
+
+.logo_text .red {
+  color: #ed1c23;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.logo_text span {
+  color: #231f20;
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.logo_text p {
+  color: #1268b3;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.logo_text .blue{
+  color: #1268b3;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+/* ===== SEARCH-BOX ===== */
+input[type="search"]{
+  border: 2px solid #bbbbbb;
+  padding: 6px;
+  color: #bbbbbb;
+  border-radius: 8px;
+  width: 592px;
+}
+
+/* ===== DELIVERY-BOX ===== */
+.delivery-box {
+  background-color: #ededed;
+  margin: 6px;
+  padding: 4px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.delivery-box .del-loc {
+  color: #5e9400;
+  font-size: 14px;
+}
+
+.delivery-box img{
+  height: 12px;
+}
+.delivery-box span {
+  font-size: 14px;
+}
+
+/* ===== LOGIN-BOX ===== */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: #212121;
+  color: white;
+  border-radius: 4px;
+  height: 50px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== BIN =====*/
+.bin-box img {
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+/* ===== SECOND HEADER ===== */
+
+/* ===== SHOP-BY-CATEGORY ===== */
+.category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.categories {
+  font-weight: 100;
+}
+
+.categories:hover {
+  background-image: linear-gradient(white,red);
+  opacity: 0.3;
+  color: red;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.category-btn{
+  background: #5f8f00;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  padding: 20px 35px 35px 30px;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+  text-align: left;
+  height: 30px;
+}
+
+/* Arrow */
+.category-btn .arrow {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid white;
+}
+
+/* ===== MAIN ===== */
+main {
+  background-color: #f7f7f7;
+  margin-top: 0;
+}
+
+/* ===== CATEGORY-BOX =====*/
+
+.categary-box {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.categary-box img {
+  width:"150px";
+  height: "40px";
+  margin-top: 40px;
+}
+
+/* ===== MY SMART BASKET ===== */
+/* ===== NEW FILE = smart_basket.css ===== */
+
+/* ===== BIGBASKET-STORY =====*/
+
+.bigbasket-story {
+  text-align: justify;
+  color: #616161;
+  padding: 10px;  
+}
+
+.bigbasket-story .story-title {
+  padding-top: 20px;
+  color: black;
+}
+
+/* ===== TOP-OFFER ===== */
+.top-offer-img {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-offer span {
+  padding-left: 40px;
+  color: #212121;
+  font-size: 40px;
+}
+
+.top-offer {
+  background-color: white;
+  padding: 20px;
+}
+.top-offer-img  img {
+  height: 200px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+/* ===== CITIES SERVERED BY BIG BASKET ===== */
+.bottom-part {
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.bottom-part .Serve {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.popular-brands {
+  display: flex;
+  text-align: center;
+  align-items: flex-start; /* better for tables */
+  justify-content: center;
+  gap: 50px;
+}
+
+.popular-brands a {
+  text-decoration: none;
+  color: white;
+}
+
+.popular-brands table {
+  text-align: left;
+  margin-top: 30px;
+  border-collapse: collapse;
+  table-layout: fixed;   /* important */
+  width: 300px;          /* give table fixed width */
+}
+
+.popular-brands td {
+  width: 33.33%;         /* 3 equal columns */
+  padding: 8px;
+}
+
+.popular-brands th {
+  font-size: 12px;
+  padding: 10px;
+  text-align: left;
+}
+
+.bottom-part a {
+  color: white;
+}
+
+.bottom-part span {
+  margin-top: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* ===== COPYRIGHT_PART ===== */
+.copyright-part {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #0f0f0f;
+}
+
+/* ===== FRUITS AND VEGETABLES ===== */
+.fruit_veg {
+  display: flex;
+  flex-direction: column;   /* ADD THIS */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.fruit p {
+  font-size: 40px;
+  text-align: left;
+  padding: 40px;
+}
+
+.fruits_cart {
+  display: flex;
+  gap: 40px;
+}
+
+.fruits_cart img {
+  width: 300px;
+}
+
+.fruit {
+  background-color: white;
+}
+
+.daily {
+  padding: 30px;
+}
+
+.daily img {
+  width: 190px;
+}
+
+.sliderbar {
+  padding: 20px;
+  position: relative;
+  background-image: url("../MEDIA/10_slider/01_slide.webp");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.sliderbar button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.slide-left {
+  position: absolute;
+  top: 50%;
+}
+
+.slide-right {
+  position: absolute;
+  left: 95%;
+  top: 50%;
+}
