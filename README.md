@@ -26,4 +26,5 @@ A responsive frontend clone of the Big Basket website built using HTML and CSS.
 ## Author
 
 Neha Patadiya 
-https://github.com/Neha-tech2411
+
+GitHub : https://github.com/Neha-tech2411
